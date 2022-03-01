@@ -1,0 +1,42 @@
+
+
+.error {
+    padding-top: 4rem;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: $font-primary;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+
+    @media only screen and (max-width: $tab-port) {
+        padding-bottom: 5rem;
+    }
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 9.4rem;
+    color: $font-primary;
+    max-width: 58.6rem;
+
+    @media only screen and (max-width: $normal-phone) {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    @media only screen and (max-width: $small-phone) {
+        font-size: 6rem;
+    }
+}
+
+.last {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    color: $font-secondary;
+    max-width: 38.1rem;
+    margin-top: 3.6rem;
+}

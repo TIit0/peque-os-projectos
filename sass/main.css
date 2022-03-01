@@ -1,0 +1,168 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh -7.8rem);
+}
+
+@media only screen and (max-width: 56.25em) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 18.75em) {
+  .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+
+.content__img {
+  width: 100%;
+  max-width: 53rem;
+  height: auto;
+  display: block;
+}
+
+.content__for {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .content__text-section {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.home-btn {
+  margin-top: 6.4rem;
+  width: 21.6rem;
+  height: 6.8rem;
+  background-color: #333333;
+  color: white;
+}
+
+@media only screen and (max-width: 18.75em) {
+  .home-btn {
+    width: 25rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (max-width: 18.75em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+body {
+  margin-left: 7.7rem;
+}
+
+.error {
+  padding-top: 4rem;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #333333;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .error {
+    padding-bottom: 5rem;
+  }
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 9.4rem;
+  color: #333333;
+  max-width: 58.6rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  h1 {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 18.75em) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+.last {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  color: #4F4F4F;
+  max-width: 38.1rem;
+  margin-top: 3.6rem;
+}
+/*# sourceMappingURL=main.css.map */

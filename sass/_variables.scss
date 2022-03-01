@@ -1,0 +1,33 @@
+// COLORS 
+
+$font-primary:#333333;
+$font-secondary:#4F4F4F;
+$color-white: white;
+
+//breakpoints 
+
+$tab-port: 56.25em; // 900px
+$normal-phone: 37.5em; //600px;
+$small-phone: 18.75em;
+
+
+//mixins
+
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == small-phone {
+        @media only screen and (max-width: 18.75em) {@content}; //300px
+    }
+
+    @if $breakpoint == normal-phone {
+        @media only screen and (max-width: 37.5em) {@content}; //600px
+    }
+
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width:56.25em) {@content}; //900px
+    }
+
+
+
+
+}
